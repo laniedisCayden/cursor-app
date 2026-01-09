@@ -24,13 +24,7 @@ export default function Home() {
               onClick={() => router.push("/dashboards")}
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-black px-5 py-3 text-sm font-medium text-white shadow transition hover:bg-zinc-800 dark:bg-white dark:text-black dark:hover:bg-zinc-200"
             >
-              Open dashboards →
-            </button>
-            <button
-              onClick={() => router.push("/dashboards")}
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-zinc-300 px-5 py-3 text-sm font-medium text-zinc-800 transition hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-900"
-            >
-              Go to API key manager
+              Go to dashboard
             </button>
           </div>
         </header>
